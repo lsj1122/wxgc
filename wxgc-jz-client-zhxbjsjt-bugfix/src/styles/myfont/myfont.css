@@ -1,0 +1,7 @@
+/* 数字、字母字体包 */
+@font-face {
+    font-family: "Acens";
+    src: url('./ACENS.TTF');
+    font-weight: normal;
+    font-style: normal;
+}

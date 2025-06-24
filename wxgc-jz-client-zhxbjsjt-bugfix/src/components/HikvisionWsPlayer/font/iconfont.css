@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "playerIcon"; /* Project id 3676244 */
+  src: url('iconfont.woff2?t=1664343839585') format('woff2'),
+       url('iconfont.woff?t=1664343839585') format('woff'),
+       url('iconfont.ttf?t=1664343839585') format('truetype'),
+       url('iconfont2.ttf?t=1684294519253') format('woff2'),
+       url('iconfont2.ttf?t=1684294519253') format('woff'),
+       url('iconfont2.ttf?t=1684294519253') format('truetype');
+}
+
+.playerIcon {
+  font-family: "playerIcon" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-reporterror:before {
+  content: "\e627";
+}
+
+.icon-bofangqi-copy:before {
+  content: "\e628";
+}
+
+.icon-luxiang:before {
+  content: "\e644";
+}
+
+.icon-quanping:before {
+  content: "\ec13";
+}
+
+.icon-plaer-fangda:before {
+  content: "\e60f";
+}
+
+.icon-plaer-dingwei:before {
+  content: "\e610";
+}
+
+.icon-plaer-kaishihuifang:before {
+  content: "\e611";
+}
+
+.icon-plaer-kaishiyulan:before {
+  content: "\e612";
+}
+
+.icon-plaer-kaiqishengyin:before {
+  content: "\e613";
+}
+
+.icon-plaer-kuaifang:before {
+  content: "\e614";
+}
+
+.icon-plaer-huoqushipinxinxi:before {
+  content: "\e615";
+}
+
+.icon-plaer-huifu:before {
+  content: "\e616";
+}
+
+.icon-plaer-bofangshibai:before {
+  content: "\e617";
+}
+
+.icon-plaer-suoxiao:before {
+  content: "\e618";
+}
+
+.icon-plaer-kaishiduijiang:before {
+  content: "\e619";
+}
+
+.icon-plaer-guanbishengyin:before {
+  content: "\e61a";
+}
+
+.icon-plaer-tingzhi:before {
+  content: "\e61b";
+}
+
+.icon-plaer-shang:before {
+  content: "\e61c";
+}
+
+.icon-plaer-tingzhihuifang:before {
+  content: "\e61d";
+}
+
+.icon-plaer-zanting:before {
+  content: "\e61e";
+}
+
+.icon-plaer-luzhishipin:before {
+  content: "\e61f";
+}
+
+.icon-plaer-manfang:before {
+  content: "\e620";
+}
+
+.icon-plaer-you:before {
+  content: "\e621";
+}
+
+.icon-plaer-shipingbaocun:before {
+  content: "\e622";
+}
+
+.icon-plaer-zuo:before {
+  content: "\e623";
+}
+
+.icon-plaer-xia:before {
+  content: "\e624";
+}
+
+.icon-plaer-tingzhiduijiang:before {
+  content: "\e625";
+}
+
+.icon-plaer-zhuaqu:before {
+  content: "\e626";
+}
+
+.icon-Loading:before {
+  content: "\e62c";
+}
+

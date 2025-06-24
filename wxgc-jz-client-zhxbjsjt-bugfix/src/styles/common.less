@@ -1,0 +1,61 @@
+@import './font.css';
+@basecolor: #16a2ff;
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.noselect {
+    //禁止选中文字
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+i{
+    font-style: normal;
+}
+ul{
+    list-style: none;
+}
+//面板
+@spacing: 18px;
+@fcolor: #00baff;
+@scolor:#c3e9fc;
+#mapBOX{
+    .anchorBL{
+        display: none;
+    }
+}
+
+.viewplate-main .el-select {
+
+    .el-input__inner {
+        background-color: #010220;
+        border-color: #0d85a9;
+        color: @fcolor;
+    }
+}
+.control-list{
+    .el-checkbox__input.is-checked + .el-checkbox__label{
+        color:#fff;
+    }
+    .el-checkbox__inner{
+        background: none;
+        border: 1px solid #4aa4be;
+    }
+    .el-checkbox__input.is-checked .el-checkbox__inner{
+        background: none;
+        border-color: #4aa4be;
+        &::after{
+            border-color: #01c5fc;
+        }
+    }
+    .el-checkbox__label{
+        color:#ddd;
+    }
+}
+
+

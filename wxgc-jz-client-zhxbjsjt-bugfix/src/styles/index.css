@@ -1,0 +1,52 @@
+
+/* @import "//at.alicdn.com/t/font_1874216_45fe9s7zh3i.css"; */
+/* 2022-7-4 引入本地的资源  */
+@import "../assets/icons/iconfont.css"; 
+
+body,
+html {
+  margin: 0;
+  width: 100%; 
+  height: 100%;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.vp-project-content .el-dialog .el-dialog__body{
+  color: #ffffff;
+}
+.vp-project-content .el-form-item .el-form-item__label{ /* label 模块  .vp-project-content 看板模块*/
+  color: #ffffff ;
+}
+
+/* 企业级看板的el-button 组 */
+.time-controller .el-button{
+  background: none;
+  color: #017BFE;
+  height: 30px;
+  /* line-height: 30px; */
+  border: 0px solid #1139AE;
+  }
+  .time-controller .el-button-group{
+
+    border: 1px solid #113aae;
+    border-radius: 5px;
+
+  }
+

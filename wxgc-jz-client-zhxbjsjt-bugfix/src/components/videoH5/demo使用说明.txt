@@ -1,0 +1,5 @@
+1、demo测试需要把demo.html和webs.exe拷贝到和h5player.min.js同级目录下使用, 
+
+2、双击启动webs.exe，使用chrome80+浏览器访问http://localhost/demo.html打开demo
+
+3、普通模式和高级模式的选择在JS_Play接口的mode参数控制，功能和性能差异详情看doc文件夹下的文档

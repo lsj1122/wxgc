@@ -1,0 +1,318 @@
+/**
+* I think element-ui's default theme color is too light for long-term use.
+* So I modified the default color and you can modify it to your liking.
+**/
+
+/* theme color */
+$--color-primary: #1890ff;
+$--color-success: #13ce66;
+$--color-warning: #ffba00;
+$--color-danger: #ff4949;
+// $--color-info: #1E1E1E;
+
+$--button-font-weight: 400;
+
+// $--color-text-regular: #1f2d3d;
+
+$--border-color-light: #dfe4ed;
+$--border-color-lighter: #e6ebf5;
+
+$--table-border: 1px solid #dfe6ec;
+
+/* icon font path, required */
+$--font-path: "~element-ui/lib/theme-chalk/fonts";
+
+@import "~element-ui/packages/theme-chalk/src/index";
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  theme: $--color-primary;
+}
+.button1 span.el-radio__label,
+.tj_b_button span.el-radio__label {
+    padding-left: 5px;
+}
+
+.button1 .el-radio,
+.tj_b_button .el-radio {
+    margin-left: 10px;
+    margin-right: 0;
+}
+.yj-radio{
+    .is-checked.is-disabled{
+        span.el-radio__inner{
+            border-color: #ff9716;
+            background: #ffb963;
+        }
+    }
+    
+}
+.bj-radio{
+.is-checked.is-disabled{
+    span.el-radio__inner{
+        border-color: #ff4a44;
+        background: #ff4242;
+    }
+}
+}
+.wz-radio{
+    .is-checked.is-disabled{
+    span.el-radio__inner{
+        border-color: #ffc444;
+        background: #ffd342;
+    }
+}
+}
+.publish-class .el-radio__input.is-disabled.is-checked .el-radio__inner::after {
+    background-color: #ffffff;
+}  
+.tj_b_button .el-radio {
+    margin-left: 0;
+    margin-right: 7px;
+}
+
+.el-row {
+    //margin-bottom: 20px;
+}
+
+.el-dialog {
+    border-radius: 8px;
+
+    .el-dialog__header {
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 14px;
+
+        .el-dialog__title {
+            color: $--color-primary;
+        }
+    }
+
+    .el-dialog__body {
+        padding: 20px 45px;
+    }
+
+    .el-dialog__footer {
+        padding: 20px 45px !important;
+    }
+
+}
+.el-tooltip__popper.is-dark{
+    max-width: 57%;
+}
+.el-steps--simple {
+    padding: 0;
+    background: none;
+}
+
+.el-step.is-simple .el-step__icon {
+    display: none;
+}
+
+.el-date-editor--daterange.el-input,
+.el-date-editor--daterange.el-input__inner,
+.el-date-editor--timerange.el-input,
+.el-date-editor--timerange.el-input__inner {
+    width: 100%;
+}
+
+.el-table th>.cell label.el-checkbox {
+    margin-left: 5px;
+}
+
+.el-form-item {
+    .el-form-item__content {
+        text-align: left;
+    }
+}
+
+.logo-img {
+    margin: 10px 15px 0 15px;
+
+    img.el-image__inner {
+        height: auto;
+    }
+}
+
+.el-textarea__inner {
+    height: 100%;
+}
+
+.demo-ruleForm {
+    .el-steps {
+        margin-bottom: 20px;
+    }
+
+    .el-step.is-simple {
+        flex-basis: 0 !important;
+        width: 90px;
+
+        .el-step__head {
+            display: none;
+        }
+
+        .el-step__main,
+        .el-step__arrow {
+            flex-grow: 0;
+        }
+
+        .el-step__title {
+            width: 143px;
+            display: inline-block;
+        }
+
+        .is-process {
+            color: #16a2ff;
+            font-weight: 400;
+        }
+
+        .el-step__arrow::before {
+            transform: rotate(-46deg) translateY(-2px);
+        }
+
+        .el-step__arrow::before,
+        .el-step__arrow::after {
+            height: 10px;
+        }
+    }
+}
+
+h3.form-title {
+    margin: 0 0 20px 0;
+    padding: 0 0 0 10px;
+    text-align: left;
+    border-left: 2px solid #16a2ff;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.el-table .cell a{
+    color: #16a2ff;
+    text-decoration: none;
+}
+.el-table .cell a.el-link--danger{
+    color: #f01f18;
+    text-decoration: none;
+}
+.el-loading-mask {
+    position: absolute;
+    z-index: 2000;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: opacity 0.3s;
+}
+.vp-project-content,.viewplate-main,.viewDialog{
+    color: #fff;
+    ::-webkit-scrollbar-thumb {
+
+        height: 50px;
+        outline-offset: -2px;
+        outline: #003f4e;
+        -webkit-border-radius: 3px;
+        background: rgb(0, 59, 87);
+    }
+    
+    /*---鼠标点击滚动条显示样式--*/
+    ::-webkit-scrollbar-thumb:hover {
+    
+    height: 50px;
+    background: rgb(0, 67, 105);
+    -webkit-border-radius: 4px;
+    }
+    
+    
+    /*---滚动条大小--*/
+    ::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+    }
+    
+    /*---滚动框背景样式--*/
+    ::-webkit-scrollbar-track-piece {
+    -webkit-border-radius: 0;
+    }
+    .el-table{
+        background: none;
+        tr{
+          background: none;
+          &:hover{
+              td{
+                  background: rgba(0,0,0,0.3);
+              }
+          }
+        }
+        tr.animaHover{
+            background: rgb(0, 199, 206);
+        }
+        th{
+          background: none;
+          border: 0;
+        }
+        td{
+            border: 0;
+            color: #eee;
+        }
+        &::before{
+          background: none;
+        }
+    }
+    .el-button{
+        background: none;
+        color:#00baff;
+        border:1px solid #00baff;
+        &:hover{
+            background: none;
+            opacity: 0.8;
+        }
+    }
+    .is-disabled{
+        color: #797979;
+        border: 1px solid #5d5d5d;
+    }
+    .el-button--info{
+        border-color: #7b7b7b;
+        color: #8c8c8c;
+    }
+    .el-dialog{
+        background:rgba(3,7,34,0.8);
+        border:2px solid #06d9ec;
+    }
+    .el-dialog .el-dialog__header{
+       border-bottom:none;
+    }
+    .el-dialog__title{
+       color:#029ad4
+    }
+    .dialog-footer{
+        text-align: right;
+        display: block;
+    }
+    .el-input__inner,.el-textarea__inner {
+        background: rgba(15, 62, 118, 0.8000);
+        border-color: #0274a8;
+        color: #99bac1;
+    }
+    .el-progress-bar__inner {
+        background-color: #16a2ff;
+        box-shadow: 0 0 9px #2df5ff;
+    }
+    .el-progress-bar__outer,.el-progress-bar{
+        overflow: visible;
+    }
+    .el-input.is-disabled .el-input__inner,.el-textarea.is-disabled .el-textarea__inner{
+        background-color: #162a48;
+        border-color: #263552;
+        color: #7e8ca7;
+    }
+    .el-table__body tr.hover-row > td, .el-table__body tr.hover-row.current-row > td, .el-table__body tr.hover-row.el-table__row--striped > td, .el-table__body tr.hover-row.el-table__row--striped.current-row > td {
+        background-color: #242d3a;
+    }
+    .el-pagination.is-background .btn-prev, .el-pagination.is-background .btn-next, .el-pagination.is-background .el-pager li {
+        background-color: #20335a;
+        color: #ccced2;
+    }
+}
